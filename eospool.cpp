@@ -76,7 +76,7 @@ class eospool : public eosio::contract {
                     s.p += eos;
                     s.t = now();
                 });
-			//购买操作
+		//购买操作
             }else if(quantity.amount >= 1000){
 
                 eosio_assert( quantity.amount >= 10000, "购买数量必须大于等于1EOS" );
